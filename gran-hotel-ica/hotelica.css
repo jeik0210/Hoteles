@@ -1,0 +1,164 @@
+.hotel-header{
+	text-align: center;
+}
+.hotel-header h3 {
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+.hotel-header h3.titulo-hotel::after{
+	content: '';
+    display: block;
+    position: absolute;
+    width: 17rem;
+    border-bottom: .3rem solid;
+    margin-left: -8.5rem;
+    left: 50%;
+}
+.hotel-header h3.titulo-hotel::after{
+	border-bottom-color: #01837F;
+}
+.casa-sur-contenido {
+    text-align: justify;
+}
+.fotos-casa{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bienvenidos p {
+    font-size: 15px;
+    line-height: 22px;
+}
+.casasur-galeria {
+    margin: 10px 0;
+}
+.casa-sur-banner{
+	background-image: url(../images/buggies1.jpg);
+    height: 385px;
+}
+h3.h3{
+	color: #fff;
+	margin-bottom: 0;
+}
+h3.h3:hover{
+color: #007F7B;
+}
+.reserva a {
+    text-decoration: none;
+}
+.reserva {
+    margin: 2rem 0;
+}
+.button-reserva {
+    border: 1px solid #007F7B;
+    padding: 10px 20px;
+    text-align: center;
+    background: #007F7B;
+}
+.button-reserva:hover {
+    background: #fff;
+}
+.panel-heading ul li a:hover{
+	background-color: rgba(117,117,117,0.1);
+	color:rgba(117,117,117,1);
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	    color: #fff;
+    cursor: default;
+    background-color: #007F7B;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.servicio-contacto{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.button-servicios{
+	text-align: center;
+    border: 1px solid;
+    padding: 7px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    background: #007F7B;
+    border-color: #a29086;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    text-shadow: none;
+    -moz-text-shadow: none;
+    -webkit-text-shadow: none;
+}
+.button-servicios a{
+	color: #fff;
+	text-decoration: none;
+}
+.button-servicios a:hover {
+    color: #ECD4B1;
+}
+.button-servicios a i {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.5em 0 0 !important;
+    text-align: center;
+    line-height: 1em;
+}
+.div-lista{
+	padding:10px 10px;
+	border-bottom: 1px dashed;
+	margin-bottom: 5px;
+}
+.div-lista .lista {
+    padding: 0 3em;
+}
+.lista-servicios {
+    
+    padding: 0 10px;
+    line-height: 23px;
+    font-size: 15px;
+
+}
+.lista-servicios li::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 7px;
+    margin-left: -0.5rem;
+    position: absolute;
+    margin-top: 6px;
+}
+.lista-servicios li::before {
+    border-color: transparent transparent transparent #9A9793;
+}
+@media(max-width: 768px ){
+    .tab-content {
+    padding: 20px 0;
+    background: #ffffff;
+}
+}
+.nav-tabs li a.enlace {
+    padding: 15px 12px;
+}
+
+.heading-hotelica{
+    padding: 10px 0 1px;
+}
+.nav-tabs .hotelica-li {
+    font-size: 14px;
+}
+.panel-info .descripcion {
+    padding: 10px 0;
+}
+.panel-info .descripcion h3 {
+    color: #007F7B;
+    margin-bottom: 0;
+}
+.panel-info .descripcion h4 {
+   text-transform: initial;
+    margin-bottom: 10px;
+}
+.panel-info .descripcion .precio {
+    font-weight: bold;
+}

@@ -1,0 +1,138 @@
+.titulo{
+	text-align: center;
+	position: static;
+}
+.titulo h1{
+	border-bottom: 3px solid #007F7B;
+}
+.introduccion{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.introduccion-p p {
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+}
+.introduccion-p .p-1{
+	font-size: 20px;
+	letter-spacing: 0.5px;
+}
+.introduccion-p .p-2{
+	font-size: 17px;
+	letter-spacing: 0.3px;
+}
+.introduccion-p .p-3{
+	font-size: 17px;
+	letter-spacing: 0.3px;
+}
+.sermon h4{
+	color: #007F7B;
+}
+.seccion-1{
+	background: #F9F7F5;
+	padding-top: 30px;
+}
+.lado{
+	color: #fff;
+}
+.lado:hover{
+	color: #5e5e5e;
+}
+.listing-cont p {
+    margin-top: 10px;
+}
+.descripcion-huacachina{
+	padding: 3px;
+}
+.descripcion-huacachina p{
+	font-size: 120%;
+	text-align: justify;
+	margin-bottom: 5px;
+	color: #86847F;
+}
+.descripcion-huacachina h2 small{
+	display: block;
+	opacity: 0.9;
+	line-height: 1.2;
+	font-size: 50%;
+	font-weight: normal;
+}
+.descripcion-huacachina p b{
+	font-weight: bold;
+}
+.descripcion-huacachina a{
+	text-decoration: none;
+}
+.descripcion-ruta{
+	padding: 10px;
+}
+.descripcion-ruta h2{
+	text-align: center;
+	border-bottom: 3px solid #007F7B;
+}
+.descripcion-ruta a{
+	text-decoration: none;
+}
+.descripcion-ruta .carets{
+padding: 10px 0;
+}
+.sombreo{
+	background: #fafafa;
+}
+.turismo-content{
+	padding: 20px 0 0;
+}
+
+.turismo-cabecera{
+	background-image: 	url(../images/buggies1.jpg);
+	height: 385px;
+}
+.top-navigation li .active {
+    color: #060606;
+}
+.widget{
+	position: static;
+}
+.copyrights-col-left, .copyrights-col-right{
+	position: static;
+}
+.listing-header a {
+    text-decoration: none;
+}
+.ocultoss,.ocult{
+	position: static;
+}
+
+#oculto,#ocultos{
+	position: static;
+}
+.noticias {
+    font-size: 0px;
+}
+.noticias h1, .noticias h2, .noticias h3, .noticias h4, .noticias h5{
+    font-size: 0;
+}
+.noticias p{
+	font-size: 0;
+	color: #fff;
+	margin: 0;
+}
+.noticias p span{
+	display: none;
+}
+.noticias .noticias-header h2{
+	font-size: 16px;
+}
+.noticias h1 span {
+    display: none;
+}
+.noticias strong {
+    display: none;
+}
+
+@media(max-width: 768px){
+	.porque{
+	margin-top:20px;
+}
+}
